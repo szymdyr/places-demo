@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:orientation="vertical"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent">
+
+    <fragment
+            android:id="@+id/autocomplete_places_fragment"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:name="pl.dyrala.szymon.placesdemo.ui.autocomplete.AutocompletePlacesFragment"/>
+
+    <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/places"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:layout_marginTop="@dimen/size8"/>
+
+</LinearLayout>

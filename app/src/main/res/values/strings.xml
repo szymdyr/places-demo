@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Places Demo</string>
+
+    <string name="place_name">Nazwa:</string>
+    <string name="place_address">Adres:</string>
+    <string name="autocomplete_places_error">Error occurred while selecting place</string>
+</resources>

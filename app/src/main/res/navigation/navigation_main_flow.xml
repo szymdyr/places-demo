@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+            xmlns:app="http://schemas.android.com/apk/res-auto"
+            android:id="@+id/navigation_main_flow"
+            app:startDestination="@+id/fragment_places">
+
+    <fragment android:id="@+id/fragment_places"
+              android:name="pl.dyrala.szymon.placesdemo.ui.places.PlacesFragment">
+
+        <action app:destination="@+id/fragment_map"
+                android:id="@+id/navigate_from_places_to_map"/>
+    </fragment>
+
+    <fragment android:id="@+id/fragment_map"
+              android:name="pl.dyrala.szymon.placesdemo.ui.map.MapFragment"/>
+
+</navigation>
